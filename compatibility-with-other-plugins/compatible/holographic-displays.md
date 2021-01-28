@@ -1,19 +1,19 @@
 # Holographic Displays
 
-## How to get emojis in holographic displays
+## Como usar emojis no holographic displays
 
-**UPDATE ITEMSADDER TO VERSION 2.1.21 OR MORE RECENT**
+**ATUALIZE O ITEMSADDER PARA A VESÃO 2.1.21 OU MAIS RECENTE**
 
-Download [Holographic Displays](https://dev.bukkit.org/projects/holographic-displays)  
-Download [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/)  
-Download the [HolographicExtension addon](https://www.spigotmc.org/resources/holographicextension.18461/)  
+Baixe [Holographic Displays](https://dev.bukkit.org/projects/holographic-displays)  
+Baixe [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/)  
+Baixe o [addon HolographicExtension](https://www.spigotmc.org/resources/holographicextension.18461/)  
 
 
-Now you can use font\_images \(emojis\) inside holograms texts and everywhere in other plugins easily! \(they must support PlaceholderAPI\).  
-This is the code: `%img_NAME%` instead of NAME write the font\_image name.  
-For example: `%img_smile%`
+Agora você pode usar imagem\_font \(emojis\) dentro do texto do holograma e em qualquer lugar em outros plugins! \(eles precisam ter suporte ao PlaceholderAPI\).  
+Esse é o codigo: `%img_NOME%` ao inves do NOME escreva o nome da imagem\_font. 
+Por exemplo: `%img_smile%`
 
-To create an hologram you can use these commands for example:
+Para criar um holograma você pode usar esse comando por exemplo:
 
 `/holo create test_itemsadder Hello! %img_smile%`
 
