@@ -1,9 +1,9 @@
 # 📓Skript API
 
-## Examples
+## Exemplos
 
 {% tabs %}
-{% tab title="Command: give custom item" %}
+{% tab title="Comando: da um item customizado" %}
 ```yaml
 command /iaskriptgetitem <text> [<number=1>]:
   trigger:
@@ -17,7 +17,7 @@ command /iaskriptgetitem <text> [<number=1>]:
 ```
 {% endtab %}
 
-{% tab title="Command: is holding custom item" %}
+{% tab title="Comando: está segurando um item customizado" %}
 ```yaml
 command /iaskriptiscustomitem:
   trigger:
@@ -39,6 +39,6 @@ command /emojitest:
 {% endtabs %}
 
 {% hint style="warning" %}
-If you think there is any missing method you need don't worry. I will add more features to the Skript API, you just have to be patient.
+Se você acha que tem algum metodo faltando não se preocupe. Eu irei adicionar mais recursos para o Skript API, você só tem que ter paciencia.
 {% endhint %}
 

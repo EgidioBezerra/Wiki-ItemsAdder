@@ -1,77 +1,78 @@
 # ☕️Java API
 
-## How to get the API
+## Como obter a API
 
-You just have to use **maven** or **gradle**, you can get the **API** here
+Você só precisa usar **maven** ou **gradle**, para obter a **API** aqui
 
 {% embed url="https://github.com/LoneDev6/ItemsAdder-API\#-packages" %}
 
-## Description
+## Descrição
 
-ItemsAdder includes an easy to use API for Java developers.  
-To access it just include **dev.lone.itemsadder.api.ItemsAdder** in your code.
+O ItemsAdder inclue uma API facil de usar para desenvolvedores Java.
+Para ter acesso apenas inclua **dev.lone.itemsadder.api.ItemsAdder** em seu codigo.
 
-## Old API:
+## API antiga:
 
 ```java
-//check if itemsadder finished loading its items and if they are available
-//PLEASE USE ItemsAdderFirstLoadEvent INSTEAD
+// Garante que o ItemsAdder acabou de carregar e se que todos os seu itens estão disponiveis
+// POR FAVOR USE ItemsAdderFirstLoadEvent NO LUGAR
 public static boolean areItemsLoaded()
 
-//Checks if an item is a custom item made with ItemsAdder
+// Garante que um item customizado é feito com o ItemsAdder
 public static boolean isCustomItem(ItemStack itemStack)
 public static boolean isCustomItem(String customItemName)
 
-//Get an ItemsAdder custom item by its name in config
+// Obtem um item customizado do ItemsAdder a partir de seu nome na config
 public static ItemStack getCustomItem(String nameInConfig)
 
-//Spawns a block made with ItemsAdder specifying the itemstack 
-//(obtain it with getCustomItem)
+// Spawna um bloco feito com o ItemsAdder especificando o itemstack 
+// (o obtenha com getCustomItem)
 public static void placeCustomBlock(Location location, ItemStack customBlock)
 public static void placeCustomBlock(Location location, ItemStack customBlock, boolean lightweight)
 
-//get custom block loots
+// Obtem loot de blocos customizados
 public static List<ItemStack> getCustomBlockLoot(Block block, ItemStack tool, boolean includeSelfBlock)
 
-//Check if a block in the world is a custom block made with ItemsAdder
+// Verifica sem um bloco no mundo é um blocos customizado feito com o ItemsAdder
 public static boolean isCustomBlock(Block block)
 
-//plants custom seed like a normal player would do
+// Planta uma semente customizada como uma jogador normal faria
 public static void placeCustomCrop(Location location, ItemStack seed)
 
-//check if block is custom planted crop with custom seed
+// Verifica se o bloco é uma planta que foi plantado com uma semente customizada
 public static boolean isCustomCrop(Block block)
 
-//get custom seed of custom crop
+// Obtem uma semente de uma planta customizada
 public static String getCustomSeedNameFromCrop(Block block)
 
-//returns the ItemStack of a custom block in world
+// Retorna o ItemStack de um bloco customizado no mundo
 public static ItemStack getCustomBlock(Block block)
 
-//check if an entity in world is a furniture
+// Verifica se uma entidade no mundo é um movel
 public static boolean isFurniture(Entity entity)
 
-//check if an ItemStack is a specific custom item 
-//(example: check if a pickaxe is 'amethyst_pickaxe')
+// Verifica se o ItemStack é um item customizado especifico
+// (Exemplo: verifica se a picareta é uma 'amethyst_pickaxe')
 public static boolean matchCustomItemName(ItemStack itemStack, String customItemName)
 
-//get name of the item in config (ex: 'ruby_pickaxe')
+// Obtem o nome do item na config (ex: 'ruby_pickaxe')
 public static String getCustomItemName(ItemStack itemStack)
 
-//get name of config where the item is declared (ex: 'items/swords')
+// Obtem o nome da config em que o item foi declarado (ex: 'items/swords')
 public static String getCustomItemFileName(ItemStack itemStack)
 
-//gets usages remaining of this item (-999 if it has no usages specified = infinite)
+// Obtém os usos restantes deste item (-999 se não tem uma quantidade de usos especificos = infinito)
 public static int getCustomItemUsages(ItemStack itemStack)
 
 //set custom item durability (also works with vanilla items and with
-//custom items with default vanilla durability)
+// Define a durabilidade de um item customizado (também funciona com itens padrão 
+// e com itens customizados com a durabilidade padrão)
 public static ItemStack setCustomItemDurability(ItemStack item, int durability)
 
-//get custom durability
+// Obtem a durabilidade customizada
 public static int getCustomItemDurability(ItemStack itemStack)
 
-//get max custom durability 
+// Obtem a durabilidade customizada maxima
 public static int getCustomItemMaxDurability(ItemStack itemStack)
 ```
 

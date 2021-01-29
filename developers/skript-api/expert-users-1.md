@@ -1,25 +1,25 @@
-# Expert users
+# Usuarios experientes
 
-## Installing the required dependencies
+## Instalando as dependencias necessárias
 
-* Install [skript](https://github.com/SkriptLang/Skript/releases)
-* Install [skript-mirror](https://skripttools.net/addons?q=mirror)
+* Instalar [skript](https://github.com/SkriptLang/Skript/releases)
+* Instalar [skript-mirror](https://skripttools.net/addons?q=mirror)
 
 {% hint style="info" %}
-To get more info about **skript-mirror** please read its [wiki](https://skript-mirror.gitbook.io/docs/)
+Para obter mais informações do **skript-mirror** por favor leia a [wiki](https://skript-mirror.gitbook.io/docs/)
 {% endhint %}
 
 {% hint style="danger" %}
-### Please **do not ask** for **support** for **skript** related issues or questions.
+### Por favor **não peça** por **suporte** para problemas ou questões relacionadas com **skript**.
 
-I'm not a skript expert and I'm not the developer of **skript** nor **skript-mirror**.  
-**Every question about skript will be ignored**, I hope you understand.
+Eu não sou um expert do skript e eu não sou o desenvolvedor do **skript** ou do **skript-mirror**.
+**Qualquer questão sobre o skript será ignorada**, espero que entenda.
 {% endhint %}
 
-## Examples
+## Exemplos
 
 {% tabs %}
-{% tab title="Getting item on command" %}
+{% tab title="Obtem um item por comando" %}
 ```yaml
 import:
   dev.lone.itemsadder.api.ItemsAdder
@@ -31,7 +31,7 @@ command /iaskript:
 ```
 {% endtab %}
 
-{% tab title="Check if clicked block is custom block" %}
+{% tab title="Verifica se o bloco clicado é um bloco customizado" %}
 ```yaml
 import:
   dev.lone.itemsadder.api.ItemsAdder
@@ -53,7 +53,7 @@ on PlayerInteractEvent:
 ```
 {% endtab %}
 
-{% tab title="Custom GUI" %}
+{% tab title="GUI customizada" %}
 ```yaml
 import:
   dev.lone.itemsadder.api.ItemsAdder
